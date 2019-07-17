@@ -30,12 +30,8 @@ export default ({ data }) => (
       const randomizedImage = edges[randomPosition].node
       return (
         <Layout>
-	  <div>
-            <Link to="/random">Pick Another</Link>
-          </div>
-          <div style={{ margin: "0.85rem" }}>
-            <Image fluid={randomizedImage.fluid} />
-          </div>
+          <p>Click the image to choose a random card</p>
+          <Link to="/random"><Image fluid={randomizedImage.fluid} /></Link>
         </Layout>
       )
     }}

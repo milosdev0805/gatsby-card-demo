@@ -9,11 +9,8 @@ import SEO from "../components/seo"
 const IndexPage = props => (
   <Layout>
     <SEO title="Home" />
-    <h1>
-      <Link to="/random">Choose a Random Card</Link>
-    </h1>
-
-    <Img fluid={props.data.imageOne.childImageSharp.fluid} />
+    <p>Click the image to choose a random card</p>
+    <Link to="/random"><Img fluid={props.data.imageOne.childImageSharp.fluid} /></Link>
   </Layout>
 )
 
