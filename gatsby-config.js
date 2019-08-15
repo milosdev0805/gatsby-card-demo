@@ -5,6 +5,7 @@ module.exports = {
     author: `@dhamirainc`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/branding/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/branding/ragan-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
