@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/branding/ragan-icon.png`, // This path is relative to the root of the site.
+        icon: `src/branding/ragan-icon-white.png`, // This path is relative to the root of the site.
       },
     },
     {
